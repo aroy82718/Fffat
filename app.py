@@ -120,7 +120,7 @@ def ensure_jwt_token_sync(region):
         print(f"[JWT] Token missing or expired for region {region}. Fetching...")
 
         # Updated API endpoint provided
-        url = "https://najmi-jwt-toekn-gen.vercel.app/api/get_jwt?guest_uid=4536993411&guest_password=EFDDEC1D960EF0C3E3153037E0A19BA06C5515067DCC2D405EBCB4C5400E27D9"
+        url = "https://fffat.vercel.app/api/get_jwt?guest_uid=17367578945&guest_password=84XW7P6WTP61KED7K3AW46IZZ4NIQ4OR"
 
         try:
             response = requests.get(url, timeout=10)
